@@ -56,6 +56,23 @@ body{
     }
 }
 
+.main-color{
+    color: #AD5389;
+}
+.main-font{
+    font-family: Gotham;
+}
+.custom-outline-btn{
+
+    border-radius: 3.22px;
+    border: 1.5px solid #B99CE2 !important;
+    color: #2D2D2D !important;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+}
 /* announcement-bar */
 .announcement-bar{
     background: linear-gradient(90deg, #3C1053 -6.96%, #AD5389 109.15%);
@@ -136,13 +153,4 @@ body{
 
 
 
-  .home-section2-title{
-    color: #AD5389;
-text-align: center;
-font-family: Gotham;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-}
+
