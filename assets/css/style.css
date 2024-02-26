@@ -1,0 +1,148 @@
+
+:root {
+  --swiper-theme-color: #fff !important;
+  --swiper-navigation-color: #fff !important;
+  --swiper-pagination-bullet-inactive-color: #fff !important;
+  --swiper-pagination-color: #fff !important;
+  --swiper-navigation-size: 20px !important;
+}
+
+body{
+    font-size: 14px;
+    font-family: Metropolis;
+    color: #5E5D7F;
+}
+
+@media (min-width:992px) {
+    body{
+        font-size: 16px;
+    }
+}
+@font-face {
+    font-family: Metropolis;
+    src: url(../fonts/metropolis/Metropolis-Regular.otf);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url(../fonts/metropolis/Metropolis-Medium.otf);
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: Metropolis;
+    src: url(../fonts/metropolis/Metropolis-SemiBold.otf);
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: Metropolis;
+    src: url(../fonts/metropolis/Metropolis-Bold.otf);
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Font/GothamMedium.ttf);
+    font-display: swap;
+}
+
+@media (min-width: 576px){
+    .container{
+        max-width: calc(100% - 8%);
+    }
+}
+
+/* announcement-bar */
+.announcement-bar{
+    background: linear-gradient(90deg, #3C1053 -6.96%, #AD5389 109.15%);
+    color: #fff;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.announcement-bar__text{
+    font-size: 12px;
+}
+@media (min-width:768px) {
+    .announcement-bar__text{
+        font-size: 14px;
+    }
+}
+
+/* navbar */
+.navbar-nav .nav-link{
+    color: #AD5389;
+    text-align: center;
+    font-family: Gotham;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-link.active{
+    color: #AD5389;
+}
+
+
+@media (max-width:768px) {
+    .navbar-brand img{
+     max-width:90%;
+    }
+    
+}
+/* main-slider */
+
+.autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+  .main-slider-section picture img{
+    height: auto;
+   width: 100%;
+   /* min-height: 400px;
+   object-fit: cover;
+   object-position: left; */
+  }
+
+
+
+  .home-section2-title{
+    color: #AD5389;
+text-align: center;
+font-family: Gotham;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
