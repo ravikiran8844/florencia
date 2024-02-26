@@ -59,6 +59,9 @@ body{
 .main-color{
     color: #AD5389;
 }
+.secondary-color{
+    color: #3C1053;
+}
 .main-font{
     font-family: Gotham;
 }
@@ -104,6 +107,7 @@ body{
 .navbar-nav .nav-link.active{
     color: #AD5389;
 }
+
 
 
 @media (max-width:768px) {
@@ -154,3 +158,31 @@ body{
 
 
 
+  .home-section3{
+    background: #F9F3F7;
+}
+.highlight-text{
+    border-radius: 4px;
+    background: linear-gradient(90deg, #3C1053 -6.96%, #AD5389 109.15%);
+    padding: 5px;
+    color: #fff;
+    white-space: nowrap;
+}
+.home-section3 h3{
+    line-height: 160%;
+}
+
+
+.home-section3__grid-items{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width:768px) {
+    .home-section3__grid-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }   
+}
