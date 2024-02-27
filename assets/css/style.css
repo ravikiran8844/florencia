@@ -161,6 +161,9 @@ body{
   .home-section3{
     background: #F9F3F7;
 }
+.home-section3 img{
+    max-width: 100px;
+}
 .highlight-text{
     border-radius: 4px;
     background: linear-gradient(90deg, #3C1053 -6.96%, #AD5389 109.15%);
@@ -241,3 +244,73 @@ footer .input-group input::placeholder{
     color: #3C1053;
     text-transform: uppercase;
 }
+
+.book-appointment-section__overlay-img{
+    min-height: 800px;
+    object-fit: cover;
+}
+
+.book-appointment-section__form{
+    max-width: 586px;
+    flex-shrink: 0;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    right: 0;
+}
+.book-appointment-section__form .btn{
+    width: 100%;
+    border-radius: 7.042px;
+    background: #AD5389;
+    color: #FFF;
+    text-align: center;
+    font-family: Metropolis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    height: 50px;
+}
+.book-appointment-section__form input{
+    box-shadow: none !important;
+}
+.book-appointment-section__form--title{
+    color: #AD5389;
+}
+
+
+.home-reviews-slider-section .card{
+    border-radius: 18px;
+    background: #F9F2F7;
+    border: none;
+}
+
+.home-reviews-slider-section .card img{
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.home-reviews-slider-section{
+    --swiper-navigation-size:12px;
+}
+.custom-buttons{
+    position: relative;
+    padding-top: 40px;
+    font-weight: 600;
+
+}
+
+.custom-buttons .swiper-button-next,.custom-buttons .swiper-button-prev {
+    background-color: #723D8D;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: static !important;
+}
+/* .custom-buttons .swiper-button-next{
+right: 30px;
+}
+.custom-buttons .swiper-button-prev{
+right: 0;
+} */
