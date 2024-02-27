@@ -186,3 +186,58 @@ body{
         gap: 30px;
     }   
 }
+
+
+
+
+footer .nav-link{
+    color: #3C1053 !important;
+    margin: 10px 0px;
+}
+
+footer .footer-links{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat( auto-fit, minmax(160px, 1fr) );
+}
+
+footer .copyright-text{
+    border-top: 1px solid #E4CBDD;
+    padding-top: 10px;
+}
+footer .social-links svg{
+    width: 20px;
+    height: auto;
+    max-height: 20px;
+}
+
+
+footer .input-group{
+    max-width: 600px;
+    border-radius: 6px;
+    border: 1px solid #3C1053;
+    background: #FFF;
+    height: 45px;
+}
+footer .input-group input{
+    border: none;
+    box-shadow: none !important;
+}
+
+
+footer .input-group .btn{
+    border: none;
+    color: #3C1053;
+    background-color: #fff !important;
+    font-weight: 600;
+}
+
+
+footer .input-group input::placeholder{
+    color: #A5A5A5;
+}
+.footer-link{
+    text-decoration: none;
+    color: #3C1053;
+    text-transform: uppercase;
+}
