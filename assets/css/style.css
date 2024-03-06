@@ -10,9 +10,15 @@ body {
   font-size: 14px;
   font-family: Metropolis;
   color: #5e5d7f;
+  cursor: url("/assets/images/home/icons/diamond-3721.png"), auto;
+
+  /* cursor: url("/assets/images/home/icons/cursor.png"), auto; */
   /* cursor: url(/assets/images/diamond.png), auto; */
 }
-
+a,button{
+  cursor: url("/assets/images/home/icons/diamond-3721.png"), auto;
+  /* cursor: url("/assets/images/home/icons/cursor.png"), auto; */
+}
 @media (min-width: 992px) {
   body {
     font-size: 16px;
