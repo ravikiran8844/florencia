@@ -8,6 +8,13 @@
   <link href="bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
@@ -92,7 +99,7 @@
   <main>
 
     <section class="main-slider-section">
-      <div class="swiper home-main-slider">
+      <div class="swiper home-main-slider" style="--swiper-navigation-size: 20px;">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
 
@@ -299,14 +306,113 @@
 
 
 
-    <section class="bg-white">
+    <section class="bg-white home-section5">
       <div class="container py-5">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 mb-5">
             <div class="text-center">
               <div class="fs-2 secondary-color fw-bold mb-2">A SPECIAL GIFT</div>
-              <div class="main-color fst-italic fs-6 fs-md-5">Let's take a glimpse at our featured collections before
+              <div class="main-color fst-italic fs-6 fs-md-5 bg-white home-section5__text">Let's take a glimpse at our
+                featured collections before
                 diving in!</div>
+            </div>
+          </div>
+
+
+          <div class="col-12">
+            <div class="swiper home-section5-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div>
+                    <div>
+                      <img class="img-fluid" height="560" width="420"
+                        src="assets/images/home/home-section5-slider1.webp" alt="">
+                    </div>
+                    <div class="mt-3">
+                      <div class="fs-5 fw-semibold secondary-color">Birthdays</div>
+                      <div class="fs-6 secondary-color mt-1">We believe in making and giving the best of quality and
+                        services. With our modern, traditional and fusion pieces</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div>
+                    <div>
+                      <img class="img-fluid" height="560" width="420"
+                        src="assets/images/home/home-section5-slider2.webp" alt="">
+                    </div>
+                    <div class="mt-3">
+                      <div class="fs-5 fw-semibold secondary-color">Birthdays</div>
+                      <div class="fs-6 secondary-color mt-1">We believe in making and giving the best of quality and
+                        services. With our modern, traditional and fusion pieces</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div>
+                    <div>
+                      <img class="img-fluid" height="560" width="420"
+                        src="assets/images/home/home-section5-slider3.webp" alt="">
+                    </div>
+                    <div class="mt-3">
+                      <div class="fs-5 fw-semibold secondary-color">Birthdays</div>
+                      <div class="fs-6 secondary-color mt-1">We believe in making and giving the best of quality and
+                        services. With our modern, traditional and fusion pieces</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div>
+                    <div>
+                      <img class="img-fluid" height="560" width="420"
+                        src="assets/images/home/home-section5-slider1.webp" alt="">
+                    </div>
+                    <div class="mt-3">
+                      <div class="fs-5 fw-semibold secondary-color">Birthdays</div>
+                      <div class="fs-6 secondary-color mt-1">We believe in making and giving the best of quality and
+                        services. With our modern, traditional and fusion pieces</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div>
+                    <div>
+                      <img class="img-fluid" height="560" width="420"
+                        src="assets/images/home/home-section5-slider2.webp" alt="">
+                    </div>
+                    <div class="mt-3">
+                      <div class="fs-5 fw-semibold secondary-color">Birthdays</div>
+                      <div class="fs-6 secondary-color mt-1">We believe in making and giving the best of quality and
+                        services. With our modern, traditional and fusion pieces</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div>
+                    <div>
+                      <img class="img-fluid" height="560" width="420"
+                        src="assets/images/home/home-section5-slider3.webp" alt="">
+                    </div>
+                    <div class="mt-3">
+                      <div class="fs-5 fw-semibold secondary-color">Birthdays</div>
+                      <div class="fs-6 secondary-color mt-1">We believe in making and giving the best of quality and
+                        services. With our modern, traditional and fusion pieces</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="custom-buttons d-flex gap-3 align-items-center">
+
+                <div class="home-section5-slider-scrollbar swiper-scrollbar position-relative"></div>
+
+
+                <div class="d-flex gap-2">
+                  <div class="swiper-button-prev"></div>
+
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -753,9 +859,9 @@
 
 
 
-    <section class="book-appointment-section">
+    <section class="book-appointment-section container py-5">
       <div class="position-relative">
-        <img width="1920" height="890" class="img-fluid book-appointment-section__overlay-img"
+        <img width="1920" height="890" class="img-fluid book-appointment-section__overlay-img rounded-5"
           src="assets/images/home/book-slot-section-banner.webp" alt="">
 
         <div class="book-appointment-section__form">
@@ -771,13 +877,13 @@
               </div>
 
               <div class="row g-4">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                   <label for="" class="form-label">Name<span class="text-danger">*</span></label>
                   <div>
                     <input type="text" placeholder="Enter first name" class="form-control" name="" id="">
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                   <label for="" class="form-label">Phone number<span class="text-danger">*</span></label>
                   <div>
                     <input type="text" placeholder="Enter Phone number" class="form-control" name="" id="">
@@ -843,7 +949,7 @@
                 </div>
               </div> -->
 
-              <img width="265" height="46" class="img-fluid" src="assets/images/logo.svg" alt="logo">
+            <img width="265" height="46" class="img-fluid" src="assets/images/logo.svg" alt="logo">
 
           </div>
 
@@ -1106,6 +1212,42 @@
 
 
 
+
+  <script>
+    var swiper = new Swiper(".home-section5-slider", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      scrollbar: {
+        el: ".home-section5-slider-scrollbar",
+        draggable: true,
+        hide: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      breakpoints: {
+        540: {
+          slidesPerView: 1.6,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2.3,
+          spaceBetween: 20,
+        },
+        1080: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+
+        1240: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+    });
+  </script>
 
 </body>
 

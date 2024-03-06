@@ -3,7 +3,7 @@
   --swiper-navigation-color: #fff !important;
   --swiper-pagination-bullet-inactive-color: #fff !important;
   --swiper-pagination-color: #fff !important;
-  --swiper-navigation-size: 20px !important;
+  --swiper-navigation-size: 12px !important;
 }
 
 body {
@@ -327,3 +327,19 @@ right: 0;
 
 
 
+
+
+
+.home-section5__text{
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.home-section5-slider img{
+  object-fit: cover;
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
