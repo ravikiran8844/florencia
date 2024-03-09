@@ -348,3 +348,10 @@ right: 0;
   aspect-ratio: 1;
   border-radius: 10px;
 }
+
+
+@media (min-width:768px) {
+  .book-appointment-section__overlay-img{
+    border-radius: 20px;
+  }
+}
