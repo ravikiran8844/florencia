@@ -264,16 +264,25 @@ footer .input-group input::placeholder {
 }
 
 .book-appointment-section__form {
-  max-width: 586px;
+  max-width: 500px;
   flex-shrink: 0;
   width: 100%;
-  padding: 20px;
+  padding: 5px;
   position: absolute;
   top: 50%;
-  transform: translate(0px, -50%);
-  right: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* right: 0; */
 }
 
+@media (min-width:768px) {
+  .book-appointment-section__form {
+    left: unset;
+    right: 15px;
+    transform: translate(0px, -50%);
+
+  }
+}
 .book-appointment-section__form .card {
   border-radius: 37.017px;
   background: #fff;
@@ -355,6 +364,7 @@ right: 0;
   object-fit: cover;
   aspect-ratio: 1;
   border-radius: 10px;
+  width: 100%;
 }
 
 
