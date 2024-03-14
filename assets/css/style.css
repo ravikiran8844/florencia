@@ -7,6 +7,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-size: 14px;
   font-family: Metropolis;
   color: #5e5d7f;
@@ -79,6 +80,13 @@ body {
   font-style: normal;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+header{
+  position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 4px 26.299999237060547px 0px #99999940;
 }
 /* announcement-bar */
 .announcement-bar {
